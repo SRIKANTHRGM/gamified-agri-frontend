@@ -7,18 +7,18 @@ import Leaderboard from "./pages/Leaderboard.jsx";
 import Profile from "./pages/Profile.jsx";
 import Rewards from "./pages/Rewards.jsx"; 
 
-import Paddy from "./pages/paddy.jsx";
-import Wheat from "./pages/wheat.jsx";
-import Sugarcane from "./pages/sugarcane.jsx";
-import Tomato from "./pages/tomato.jsx";
-import Maize from "./pages/maize.jsx";
+import Paddy from "./pages/PaddyGame.jsx";
+import Wheat from "./pages/WheatGame.jsx";
+import Sugarcane from "./pages/SugarcaneGame.jsx";
+import Tomato from "./pages/TomatoGame.jsx";
+import Maize from "./pages/MaizeGame.jsx";
 
 
-import Paddy1 from "./pages/paddy1.jsx";
-import Wheat1 from "./pages/wheat1.jsx";
-import Sugarcane1 from "./pages/sugarcane1.jsx";
-import Tomato1 from "./pages/tomato1.jsx";
-import Maize1 from "./pages/maize1.jsx";
+import Paddy1 from "./pages/Paddy1.jsx";
+import Wheat1 from "./pages/Wheat1.jsx";
+import Sugarcane1 from "./pages/Sugarcane1.jsx";
+import Tomato1 from "./pages/Tomato1.jsx";
+import Maize1 from "./pages/Maize1.jsx";
 
 function App() {
   return (
