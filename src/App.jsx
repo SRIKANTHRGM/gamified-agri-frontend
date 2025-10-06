@@ -5,13 +5,13 @@ import Register from "./pages/Register.jsx";
 import FarmGame from "./pages/FarmGame.jsx";
 import Leaderboard from "./pages/Leaderboard.jsx";
 import Profile from "./pages/Profile.jsx";
-import Rewards from "./pages/Rewards.jsx"; 
+// import Rewards from "./pages/Rewards.jsx"; 
 
 import Paddy from "./pages/PaddyGame.jsx";
 import Wheat from "./pages/WheatGame.jsx";
 import Sugarcane from "./pages/SugarcaneGame.jsx";
 import Tomato from "./pages/TomatoGame.jsx";
-import Maize from "./pages/MaizeGame.jsx";
+import Maize from "./pages/maize.jsx";
 
 
 import Paddy1 from "./pages/Paddy1.jsx";
@@ -31,7 +31,7 @@ function App() {
       <Route path="/profile" element={<Profile />} />
 
       {/* Rewards Page Route */}
-      <Route path="/rewards" element={<Rewards />} />
+      {/* <Route path="/rewards" element={<Rewards />} /> */}
 
       {/* Old Crop Pages (FarmGame) */}
       <Route path="/paddy" element={<Paddy />} />
