@@ -31,17 +31,17 @@ function App() {
       <Route path="/profile" element={<Profile />} />
 
       {/* Rewards Page Route */}
-      {/* <Route path="/rewards" element={<Rewards />} /> */}
+      <Route path="/rewards" element={<Rewards />} />
 
       {/* Old Crop Pages (FarmGame) */}
       <Route path="/paddy" element={<Paddy />} />
       <Route path="/wheat" element={<Wheat />} />
       <Route path="/sugarcane" element={<Sugarcane />} />
       <Route path="/tomato" element={<Tomato />} />
-      <Route path="/maize" element={<Maize />} />
+      {/* <Route path="/maize" element={<Maize />} /> */}
 
       {/* New Crop Pages (Home) */}
-      <Route path="/paddy1" element={<Paddy1 />} />
+      {/* <Route path="/paddy1" element={<Paddy1 />} /> */}
       <Route path="/wheat1" element={<Wheat1 />} />
       <Route path="/sugarcane1" element={<Sugarcane1 />} />
       <Route path="/tomato1" element={<Tomato1 />} />
